@@ -1,0 +1,121 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn .back,
+.btn .option {
+  width: 100px;
+  height: 40px;
+  padding: 3px 10px;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin-top: 80px;
+}
+
+.btn .back .back__icon {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  position: relative;
+  bottom: 3px;
+}
+
+.btn .option option {
+  font-family: Inter;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  padding: 50px;
+}
+
+.all .all__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 10px;
+  width: 300px; /* Увеличил ширину карточки */
+}
+
+.all .all__card .all__img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.all .all__card .all__title,
+.all .all__card .all__description {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Inter;
+}
+
+.all .all__card .all__title {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+}
+
+.all .all__card .all__description {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+.all .all__card .all__price {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.all .all__card .all__btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.all .all__card .all__btns .all__btn1,
+.all .all__card .all__btns .all__btn2 {
+  width: 97px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  object-fit: contain;
+}
